@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "coin": "datucoin.json",
+    "daemon": {
+        "port": 6333,
+        "username": "datucoindaemon",
+        "password": "datucoin1000rules"
+    },
+    "wallet": {
+        "address": "EDhp5ybsaTPxVTiuRs4nWLJAs7RF3tFzNi"
+    },
+    "rewards": [
+        {
+            "EFvrPLvdMBqbJtsQpw6E6BoweCbr6V2nXG": 1
+        }
+    ],
+    "stratum": {
+        "port": 3333
+    },
+    "storage": {
+        "hybrid": {
+          "mysql": {
+            "database": "dbname",
+            "username": "root",
+            "password": "" 
+          }
+        }
+    }
+}

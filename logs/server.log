@@ -1,0 +1,265 @@
+01/03/2018 22:11:28 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 22:11:28 +04:00 [Error] [n/a] [global] Can not read json file C:\Users\juvenile\Downloads\CoiniumServ-develop\CoiniumServ-develop\bin\Release\config\software.json
+01/03/2018 22:11:36 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 22:13:17 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 22:13:18 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 22:34:09 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 22:34:11 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 22:40:03 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 22:40:05 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:02:30 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 23:02:34 +04:00 [Error] [n/a] [global] Can not read json file C:\Users\juvenile\Downloads\CoiniumServ-develop\CoiniumServ-develop\bin\Release\config\coins\datucoin.json
+01/03/2018 23:02:38 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:03:48 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 23:03:56 +04:00 [Error] [MySqlProvider] [Litecoin] Mysql storage initialization failed: 127.0.0.1:3306, database: dbname - Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:04:02 +04:00 [Error] [RedisProvider] [Litecoin] Redis storage initialization failed: 127.0.0.1:6379
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 890
+   at CoiniumServ.Persistance.Providers.Redis.RedisClient..ctor(String host, Int32 port, String password, String extraOptions) in C:\Users\juvenile\Downloads\CoiniumServ-develop\CoiniumServ-develop\src\CoiniumServ\Persistance\Providers\Redis\RedisClient.cs:line 34
+   at CoiniumServ.Persistance.Providers.Redis.RedisProvider.Initialize() in C:\Users\juvenile\Downloads\CoiniumServ-develop\CoiniumServ-develop\src\CoiniumServ\Persistance\Providers\Redis\RedisProvider.cs:line 62
+01/03/2018 23:04:07 +04:00 [Error] [MigrationManager] [Litecoin] An exception occured while running migration manager; Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:04:08 +04:00 [Error] [ShareManager] [Litecoin] Error getting account for pool central wallet address: DxVXHdYCKageqMah4b4zWrbvVwSrqyMadD - An unknown exception occured while reading json response.
+01/03/2018 23:04:08 +04:00 [Information] [BanManager] [Litecoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:04:08 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:04:08 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:04:09 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:04:09 +04:00 [Error] [BlockProcessor] [Litecoin] Error getting account for pool central wallet address: DxVXHdYCKageqMah4b4zWrbvVwSrqyMadD - An unknown exception occured while reading json response.
+01/03/2018 23:04:09 +04:00 [Error] [PaymentProcessor] [Litecoin] Halted as we can not connect to configured coin daemon: An unknown exception occured while reading json response.
+01/03/2018 23:04:10 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getdifficulty(): An unknown exception occured while reading json response.
+01/03/2018 23:04:10 +04:00 [Error] [NetworkInfo] [Litecoin] Can not probe submitblock() support: An unknown exception occured while reading json response.
+01/03/2018 23:04:10 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getinfo(): An unknown exception occured while reading json response.
+01/03/2018 23:04:10 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getmininginfo(): An unknown exception occured while reading json response.
+01/03/2018 23:04:11 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getblocktemplate(): An unknown exception occured while reading json response.
+01/03/2018 23:04:11 +04:00 [Information] [NetworkInfo] [Litecoin] symbol: LTC algorithm: scrypt version: null protocol: 0 wallet: 0 network difficulty: 0.00000000 block difficulty: 0.00 network hashrate: 0.00 KH/s network: mainnet peers: 0 blocks: -2 errors: none 
+01/03/2018 23:04:11 +04:00 [Information] [StratumServer] [Litecoin] Stratum server listening on 0.0.0.0:3333
+01/03/2018 23:04:15 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block; Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:04:16 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block; Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:04:17 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block totals: Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:04:18 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getinfo(): An unknown exception occured while reading json response.
+01/03/2018 23:04:18 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getmininginfo(): An unknown exception occured while reading json response.
+01/03/2018 23:04:18 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getblocktemplate(): An unknown exception occured while reading json response.
+01/03/2018 23:04:18 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while deleting expired hashrate data: Object reference not set to an instance of an object.
+01/03/2018 23:04:18 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting hashrate data: Object reference not set to an instance of an object.
+01/03/2018 23:04:18 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting shares for current round: Object reference not set to an instance of an object.
+01/03/2018 23:04:21 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:05:04 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:05:04 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:05:05 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:05:11 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting pending blocks: Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:05:14 +04:00 [Information] [BlockProcessor] [Litecoin] No pending blocks found
+01/03/2018 23:05:19 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting un-paid blocks: Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:05:20 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block; Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:05:23 +04:00 [Information] [BlockAccounter] [Litecoin] No pending blocks waiting to get accounted found
+01/03/2018 23:05:29 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block; Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:05:37 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting block totals: Unable to connect to any of the specified MySQL hosts.
+01/03/2018 23:05:39 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getinfo(): An unknown exception occured while reading json response.
+01/03/2018 23:05:39 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getmininginfo(): An unknown exception occured while reading json response.
+01/03/2018 23:05:40 +04:00 [Error] [NetworkInfo] [Litecoin] Can not read getblocktemplate(): An unknown exception occured while reading json response.
+01/03/2018 23:05:40 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while deleting expired hashrate data: Object reference not set to an instance of an object.
+01/03/2018 23:05:40 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting hashrate data: Object reference not set to an instance of an object.
+01/03/2018 23:05:40 +04:00 [Error] [HybridStorage] [Litecoin] An exception occured while getting shares for current round: Object reference not set to an instance of an object.
+01/03/2018 23:06:00 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:06:00 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:06:01 +04:00 [Error] [JobManager] [Litecoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:10:39 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 23:10:45 +04:00 [Error] [StorageConfig] [global] Storage will be not working as no valid storage configuration was found!
+01/03/2018 23:10:48 +04:00 [Error] [ShareManager] [Datucoin] Error getting account for pool central wallet address: DxVXHdYCKageqMah4b4zWrbvVwSrqyMadD - An unknown exception occured while reading json response.
+01/03/2018 23:10:50 +04:00 [Information] [BanManager] [Datucoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:10:53 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:10:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:10:57 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:10:59 +04:00 [Error] [BlockProcessor] [Datucoin] Error getting account for pool central wallet address: DxVXHdYCKageqMah4b4zWrbvVwSrqyMadD - An unknown exception occured while reading json response.
+01/03/2018 23:11:02 +04:00 [Error] [PaymentProcessor] [Datucoin] Halted as we can not connect to configured coin daemon: An unknown exception occured while reading json response.
+01/03/2018 23:11:04 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getdifficulty(): An unknown exception occured while reading json response.
+01/03/2018 23:11:06 +04:00 [Error] [NetworkInfo] [Datucoin] Can not probe submitblock() support: An unknown exception occured while reading json response.
+01/03/2018 23:11:09 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getinfo(): An unknown exception occured while reading json response.
+01/03/2018 23:11:11 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getmininginfo(): An unknown exception occured while reading json response.
+01/03/2018 23:11:13 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getblocktemplate(): An unknown exception occured while reading json response.
+01/03/2018 23:11:15 +04:00 [Information] [NetworkInfo] [Datucoin] symbol: DTU algorithm: scrypt version: null protocol: 0 wallet: 0 network difficulty: 0.00000000 block difficulty: 0.00 network hashrate: 0.00 KH/s network: mainnet peers: 0 blocks: -2 errors: none 
+01/03/2018 23:11:21 +04:00 [Information] [StratumServer] [Datucoin] Stratum server listening on 0.0.0.0:3333
+01/03/2018 23:11:24 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:11:27 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:11:54 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:11:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:11:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:12:04 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:12:08 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:12:26 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:12:50 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:12:51 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:12:51 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:13:12 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:13:16 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:13:31 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:13:46 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:13:47 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:13:47 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:14:26 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:14:31 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:14:38 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:14:43 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:14:43 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:14:43 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:15:33 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:15:35 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:15:39 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:15:39 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:15:39 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:15:41 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:15:41 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Nancy.ViewEngines.Razor.RazorViewEngine.<>c__DisplayClass2b.<RenderView>b__2a(Stream stream)
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:15:52 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:15:53 +04:00 [Information] [BanManager] [Datucoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:16:04 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:16:19 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:16:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:16:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:16:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:16:37 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:16:41 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:16:47 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:17:31 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:17:31 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:17:31 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:17:45 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:17:48 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:17:51 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:18:27 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:18:27 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:18:27 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: An unknown exception occured while reading json response.
+01/03/2018 23:20:36 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 23:20:38 +04:00 [Error] [StorageConfig] [global] Storage will be not working as no valid storage configuration was found!
+01/03/2018 23:20:38 +04:00 [Information] [BanManager] [Datucoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:20:38 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:20:38 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:20:38 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:20:38 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getblocktemplate(): DatuCoin is downloading blocks...
+01/03/2018 23:20:38 +04:00 [Information] [NetworkInfo] [Datucoin] symbol: DTU algorithm: scrypt version: 150001 protocol: 70015 wallet: 139900 network difficulty: 0.00024414 block difficulty: 16.00 network hashrate: 0.04 KH/s network: mainnet peers: 1 blocks: 20 errors: none 
+01/03/2018 23:20:38 +04:00 [Information] [StratumServer] [Datucoin] Stratum server listening on 0.0.0.0:3333
+01/03/2018 23:20:38 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:20:39 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:21:33 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:21:33 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:21:33 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:21:38 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:21:38 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:21:38 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:21:38 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:22:28 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:22:28 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:22:28 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:22:38 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:22:38 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:22:38 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:22:38 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:25:58 +04:00 [Information] [PlatformManager] [global] Running over .Net, framework: 4.5 (v4.0.30319.42000).
+01/03/2018 23:25:59 +04:00 [Error] [StorageConfig] [global] Storage will be not working as no valid storage configuration was found!
+01/03/2018 23:26:00 +04:00 [Information] [BanManager] [Datucoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:26:00 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:26:00 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:26:00 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:26:00 +04:00 [Error] [NetworkInfo] [Datucoin] Can not read getblocktemplate(): DatuCoin is downloading blocks...
+01/03/2018 23:26:00 +04:00 [Information] [NetworkInfo] [Datucoin] symbol: DTU algorithm: scrypt version: 150001 protocol: 70015 wallet: 139900 network difficulty: 0.00024414 block difficulty: 16.00 network hashrate: 0.04 KH/s network: mainnet peers: 3 blocks: 20 errors: none 
+01/03/2018 23:26:00 +04:00 [Information] [StratumServer] [Datucoin] Stratum server listening on 0.0.0.0:3333
+01/03/2018 23:26:00 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:26:01 +04:00 [Information] [WebServer] [global] Web-server listening on: http://localhost/
+01/03/2018 23:26:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:26:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:26:55 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:27:00 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:27:00 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:27:03 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:27:07 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:27:16 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:27:50 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:27:51 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:27:54 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:27:54 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:28:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:28:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:28:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:28:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:28:50 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:28:50 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:28:50 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:29:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:29:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:29:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:29:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:29:45 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:29:45 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:29:45 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:30:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:30:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:30:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:30:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:30:40 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:30:40 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:30:40 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:31:00 +04:00 [Information] [BanManager] [Datucoin] No expired bans found to be cleared [remaining bans: 0].
+01/03/2018 23:31:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:31:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:31:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:31:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:31:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:31:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:31:35 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:32:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:32:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:32:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:32:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:32:30 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:32:30 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:32:30 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:33:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:33:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:33:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:33:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:33:25 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:33:25 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:33:25 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:33:34 +04:00 [Error] [WebServer] [global] Unhandled web-server exception: System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at Nancy.Hosting.Self.NancyHost.OutputWithDefaultTransferEncoding(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.ConvertNancyResponseToResponse(Response nancyResponse, HttpListenerResponse response)
+   at Nancy.Hosting.Self.NancyHost.Process(HttpListenerContext ctx)
+01/03/2018 23:34:05 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
+01/03/2018 23:34:09 +04:00 [Information] [BlockProcessor] [Datucoin] No pending blocks found
+01/03/2018 23:34:09 +04:00 [Information] [BlockAccounter] [Datucoin] No pending blocks waiting to get accounted found
+01/03/2018 23:34:09 +04:00 [Information] [PaymentProcessor] [Datucoin] No pending payments found
+01/03/2018 23:34:20 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:34:20 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/03/2018 23:34:20 +04:00 [Error] [JobManager] [Datucoin] New job creation failed: DatuCoin is downloading blocks...
+01/04/2018 12:40:36 +04:00 [Error] [PoolManager] [global] Error recaching statistics; The method or operation is not implemented.
